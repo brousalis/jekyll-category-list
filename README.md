@@ -10,7 +10,7 @@ If you're using Jekyll, add the category_list.rb file to your _plugins directory
 
 Then copy or include the category_list.css styles into your project. The list looks something like this:
 
-![](http://github.com/brousalis/jekyll-category-list/raw/master/category-name.png)
+![](http://github.com/brousalis/jekyll-category-list/raw/master/category.png)
 
 Where personal is the hover state. 
 
