@@ -1,5 +1,7 @@
 # Jekyll category list
 
+![Demo of the CSS](http://brousalis.github.com/jekyll-category-list)
+
 ## Usage
 
 If you're using Jekyll, add the categorylist.rb file to your _plugins directory. This will give you the helper `category_list`. In your views, you can use this function to print out a list of categories:

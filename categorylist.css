@@ -1,22 +1,13 @@
-i#categories {
+#categories {
   list-style: none;
 }
 #categories  li {  
   border-bottom: none;
   position: relative;
-  padding: .2em 0;
+  padding: 4px 0;
   margin-bottom: 2px;
   overflow: hidden;
   text-shadow: none;
-}
-#categories li:hover em {
-  top 5px;
-}
-#categories li:hover span {
-  width: 96% !important;
-}
-#categories li:hover div {
-  top: 40px;
 }
 #categories li a {
   position: relative;
@@ -28,17 +19,18 @@ i#categories {
   font-style: normal;
   font-size: 11px;
   right: 13px;
-  opacity: 0.9;
   position: absolute;
   top: 40px;
   z-index: 2;
+  line-height: 22px;
+  color: #000;
   -webkit-transition: all 0.2s ease;
      -moz-transition: all 0.2s ease;
        -o-transition: all 0.2s ease;
           transition: all 0.2s ease;
 }
 #categories li span {
-  padding: 3px 6px;
+  padding: 4px 6px;
   height: 50%;
   text-indent: -9999px;
   display: block;
@@ -72,5 +64,14 @@ i#categories {
           transition: all 0.2s ease; 
 } 
 #categories li div.category-name {
-  background: url('images/category-name.png') no-repeat;
+  background: url('category-name.png') no-repeat;
 }
+#categories li:hover em {
+  top: 5px;
+}
+#categories li:hover span {
+  width: 96% !important;
+}
+#categories li:hover div {
+  top: 40px;
+}  
