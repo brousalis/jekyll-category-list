@@ -1,6 +1,6 @@
 # Jekyll category list
 
-![Demo of the CSS](http://brousalis.github.com/jekyll-category-list)
+[Demo of the CSS](http://brousalis.github.com/jekyll-category-list)
 
 ## Usage
 
@@ -10,7 +10,7 @@ If you're using Jekyll, add the categorylist.rb file to your _plugins directory.
 
 The list looks something like this:
 
-![](http://github.com/brousalis/jekyll-category-list/raw/master/example.png)
+![](http://github.com/brousalis/jekyll-category-list/raw/master/category-name.png)
 
 Where personal is the hover state. 
 
