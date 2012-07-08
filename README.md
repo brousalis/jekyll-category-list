@@ -4,11 +4,11 @@
 
 ## Usage
 
-If you're using Jekyll, add the categorylist.rb file to your _plugins directory. This will give you the helper `category_list`. In your views, you can use this function to print out a list of categories:
+If you're using Jekyll, add the category_list.rb file to your _plugins directory. This will give you the helper `category_list`. In your views, you can use this function to print out a list of categories:
 
     {% category_list %}
 
-The list looks something like this:
+Then copy or include the category_list.css styles into your project. The list looks something like this:
 
 ![](http://github.com/brousalis/jekyll-category-list/raw/master/category-name.png)
 
