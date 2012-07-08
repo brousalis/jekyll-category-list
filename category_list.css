@@ -65,7 +65,7 @@
           transition: all 0.2s ease; 
 } 
 #categories li div.category-name {
-  background: url('category-name.png') no-repeat;
+  background: url('category.png') no-repeat;
 }
 #categories li:hover em {
   top: 5px;
