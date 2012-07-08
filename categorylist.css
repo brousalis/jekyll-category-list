@@ -1,0 +1,76 @@
+i#categories {
+  list-style: none;
+}
+#categories  li {  
+  border-bottom: none;
+  position: relative;
+  padding: .2em 0;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-shadow: none;
+}
+#categories li:hover em {
+  top 5px;
+}
+#categories li:hover span {
+  width: 96% !important;
+}
+#categories li:hover div {
+  top: 40px;
+}
+#categories li a {
+  position: relative;
+  display: block;
+  padding-left: 12px;
+  z-index: 1;
+}
+#categories li em {
+  font-style: normal;
+  font-size: 11px;
+  right: 13px;
+  opacity: 0.9;
+  position: absolute;
+  top: 40px;
+  z-index: 2;
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+#categories li span {
+  padding: 3px 6px;
+  height: 50%;
+  text-indent: -9999px;
+  display: block;
+  overflow: hidden;
+  background: #e5e5e5;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  z-index: 0;
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+       -o-border-radius: 100px;
+          border-radius: 100px; 
+  -webkit-transition: width 0.5s ease;
+     -moz-transition: width 0.5s ease;
+       -o-transition: width 0.5s ease;
+          transition: width 0.5s ease; 
+}
+#categories li div {
+  width: 16px;
+  height: 16px;
+  float: right;
+  text-indent: -9999px;
+  position: absolute;
+  top: 6px;
+  right: 7px;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+          transition: all 0.2s ease; 
+} 
+#categories li div.category-name {
+  background: url('images/category-name.png') no-repeat;
+}
